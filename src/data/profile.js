@@ -30,6 +30,19 @@ export const content = {
       { value: 2, suffix: "", label: "Empresas" },
       { value: 3, suffix: "", label: "Certificaciones" },
     ],
+    whatIDoTitle: "¿Qué hago?",
+    whatIDo: [
+      { icon: "fullstack", title: "Full Stack Development", desc: "Aplicaciones completas con React, Node.js, .NET y Flask, del frontend a la base de datos." },
+      { icon: "automation", title: "Automatización de Procesos", desc: "Soluciones RPA con Puppeteer que eliminan tareas repetitivas y aceleran operaciones." },
+      { icon: "ai", title: "Flujos con IA Generativa", desc: "Integro LLMs en el desarrollo y la automatización para entregar más rápido, sin bajar la calidad." },
+      { icon: "cloud", title: "Cloud & DevOps", desc: "Despliegue y administración de servidores Linux, NGINX, PM2 e infraestructura en DigitalOcean." },
+      { icon: "integration", title: "Integración de Sistemas", desc: "Conecto plataformas empresariales y APIs para que los sistemas trabajen juntos, no en silos." },
+    ],
+    whatIDoCta: {
+      label: "¿TIENES UN PROYECTO?",
+      title: "Me interesa saber qué estás construyendo.",
+      button: "Hablemos",
+    },
     experience: [
       {
         company: "SOC Asesores",
@@ -109,6 +122,19 @@ export const content = {
       { value: 2, suffix: "", label: "Companies" },
       { value: 3, suffix: "", label: "Certifications" },
     ],
+    whatIDoTitle: "What I Do",
+    whatIDo: [
+      { icon: "fullstack", title: "Full Stack Development", desc: "End-to-end applications with React, Node.js, .NET and Flask, from frontend to database." },
+      { icon: "automation", title: "Process Automation", desc: "RPA solutions with Puppeteer that eliminate repetitive tasks and speed up operations." },
+      { icon: "ai", title: "AI-Powered Workflows", desc: "I integrate LLMs into development and automation to ship faster without cutting quality." },
+      { icon: "cloud", title: "Cloud & DevOps", desc: "Deployment and management of Linux servers, NGINX, PM2 and DigitalOcean infrastructure." },
+      { icon: "integration", title: "System Integration", desc: "Connecting enterprise platforms and APIs so systems work together, not in silos." },
+    ],
+    whatIDoCta: {
+      label: "HAVE A PROJECT?",
+      title: "I'd love to hear what you're building.",
+      button: "Let's talk",
+    },
     experience: [
       {
         company: "SOC Asesores",
