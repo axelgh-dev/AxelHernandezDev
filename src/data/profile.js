@@ -48,6 +48,15 @@ export const content = {
         company: "SOC Asesores",
         role: "Junior Full Stack Developer",
         date: "Enero 2025 — Junio 2026",
+        badges: [
+          "React",
+          ".NET",
+          "Node.js",
+          "Flask",
+          "AI",
+          "RPA",
+          "Linux",
+        ],
         points: [
           "Desarrollo y mantenimiento de aplicaciones internas de negocio con React, .NET, Node.js, Flask y bases de datos SQL.",
           "Integración de IA Generativa para soluciones de automatización y optimización de flujos de trabajo.",
@@ -140,6 +149,15 @@ export const content = {
         company: "SOC Asesores",
         role: "Junior Full Stack Developer",
         date: "January 2025 — June 2026",
+        badges: [
+          "React",
+          ".NET",
+          "Node.js",
+          "Flask",
+          "AI",
+          "RPA",
+          "Linux",
+        ],
         points: [
           "Built and maintained internal business applications using React, .NET, Node.js, Flask and SQL databases.",
           "Integrated generative AI (LLMs) into development and automation workflows.",
