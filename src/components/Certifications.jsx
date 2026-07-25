@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { FaGoogle } from "react-icons/fa";
 
 export default function Certifications({ t }) {
   return (
@@ -22,8 +23,23 @@ export default function Certifications({ t }) {
         </div>
 
         <h4 className="text-xl font-semibold mb-4">{t.sectionsTitle.learning}</h4>
-        <div className="flex flex-wrap gap-2">
-          {t.learning.map((l) => <span key={l} className="badge">{l}</span>)}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+          {t.learning.map((course, i) => (
+            <motion.div
+              key={course.name}
+              className="glass-card rounded-lg p-3.5"
+              initial={{ opacity: 0, y: 15 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.4, delay: i * 0.08 }}
+            >
+              <div className="flex items-center gap-2 mb-2 text-accent2">
+                <FaGoogle className="text-sm" />
+                <span className="text-[11px] font-mono text-muted">{course.provider}</span>
+              </div>
+              <p className="text-sm font-medium leading-snug">{course.name}</p>
+            </motion.div>
+          ))}
         </div>
       </motion.div>
     </section>
