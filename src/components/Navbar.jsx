@@ -7,6 +7,7 @@ export default function Navbar({ t, lang, setLang }) {
     ["experience", "#experience"],
     ["skills", "#skills"],
     ["certs", "#certifications"],
+    ["projects", "#projects"],
     ["contact", "#contact"],
   ];
 

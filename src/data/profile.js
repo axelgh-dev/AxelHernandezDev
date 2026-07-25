@@ -22,7 +22,7 @@ export const content = {
     ],
     tagline:
       "Construyo aplicaciones Full Stack, automatizo procesos de negocio con RPA y potencio flujos de trabajo integrando IA generativa. Autodidacta, orientado a soluciones que escalan.",
-    nav: { about: "Sobre mí", experience: "Experiencia", skills: "Habilidades", certs: "Certificaciones", contact: "Contacto" },
+    nav: { about: "Sobre mí", experience: "Experiencia", skills: "Habilidades", projects: "Proyectos", certs: "Certificaciones", contact: "Contacto" },
     about: "Ingeniero de Software con más de 2 años de experiencia construyendo aplicaciones Full Stack, automatizando procesos de negocio y desplegando soluciones en producción. Mi experiencia cubre frontend, backend, administración de servidores Linux, infraestructura cloud e integración de sistemas empresariales. En el último año he incorporado IA generativa (LLMs) a mis flujos de automatización y desarrollo, acelerando entregas sin sacrificar calidad. Busco retos donde pueda seguir aprendiendo, colaborar con equipos talentosos y construir tecnología con impacto real.",
     stats: [
       { value: 2, suffix: "+", label: "Años de experiencia" },
@@ -43,6 +43,37 @@ export const content = {
       title: "Me interesa saber qué estás construyendo.",
       button: "Hablemos",
     },
+    projectsTitle: "Proyectos Personales",
+    projectsSubtitle: "Cosas que construí por mi cuenta, sin cliente de por medio.",
+    projects: [
+      {
+        name: "Prisma",
+        tagline: "React + Tailwind + Express + Claude",
+        desc: "Un Kanban personal minimalista con estética glass, para crear, organizar y dar seguimiento a tus proyectos de forma individual.",
+        tech: ["React", "Vite", "TypeScript", "Tailwind CSS"],
+        image: "/projects/prisma.png",
+        github: "https://github.com/axelgh-dev/Prisma", // TODO: reemplazar con tu link real
+        demo: "https://github.com/axelgh-dev/Prisma",   // TODO: reemplazar con tu link real
+      },
+      {
+        name: "Diariccalia",
+        tagline: "React + Vite + Gemini",
+        desc: "Landing page para una clínica de salud: muestra servicios, misión/visión, ubicación, y un formulario de reservación de citas.",
+        tech: ["React", "Vite"],
+        image: "/projects/diariccalia.png",
+        github: "https://github.com/axelgh-dev/DIARICCALIA", // TODO: reemplazar con tu link real
+        demo: "https://github.com/axelgh-dev/DIARICCALIA",   // TODO: reemplazar con tu link real
+      },
+      {
+        name: "BrainMind Studio",
+        tagline: "React + Vite",
+        desc: "Aplicación para crear mapas mentales de forma visual y exportarlos como imagen, lista para compartir o guardar.",
+        tech: ["React", "Vite"],
+        image: "/projects/brainmind.png",
+        github: "https://github.com/axelgh-dev/BrainMind", // TODO: reemplazar con tu link real
+        demo: "https://github.com/axelgh-dev/BrainMind",   // TODO: reemplazar con tu link real
+      },
+    ],
     experience: [
       {
         company: "SOC Asesores",
@@ -140,7 +171,7 @@ export const content = {
     ],
     tagline:
       "I build Full Stack applications, automate business processes with RPA, and enhance workflows by integrating generative AI. Self-taught, focused on solutions that scale.",
-    nav: { about: "About", experience: "Experience", skills: "Skills", certs: "Certifications", contact: "Contact" },
+    nav: { about: "About", experience: "Experience", skills: "Skills", certs: "Certifications", projects: "Projects", contact: "Contact" },
     about: "Software Engineer with 2+ years of experience building Full Stack applications, automating business processes, and deploying production-ready solutions. My experience spans frontend, backend, Linux server administration, cloud infrastructure, and enterprise system integration. Over the past year I've integrated generative AI (LLMs) into my development and automation workflows, speeding up delivery without sacrificing quality. I'm looking for challenges where I can keep learning, collaborate with talented teams, and build technology with real impact.",
     stats: [
       { value: 2, suffix: "+", label: "Years of experience" },
@@ -161,6 +192,37 @@ export const content = {
       title: "I'd love to hear what you're building.",
       button: "Let's talk",
     },
+    projectsTitle: "Personal Projects",
+    projectsSubtitle: "Things I built on my own, no client involved.",
+    projects: [
+      {
+        name: "Prisma",
+        tagline: "React + Tailwind + Express + Claude",
+        desc: "A clean, glass-inspired personal Kanban app to create, organize and track your projects individually.",
+        tech: ["React", "Vite", "TypeScript", "Tailwind CSS"],
+        image: "/projects/prisma.png",
+        github: "https://github.com/axelgh-dev/Prisma", // TODO: replace with your real link
+        demo: "https://github.com/axelgh-dev/Prisma",   // TODO: replace with your real link
+      },
+      {
+        name: "Diariccalia",
+        tagline: "React + Vite + Gemini",
+        desc: "Landing page for a medical clinic brand: showcases services, mission/vision, location details, and an appointment reservation form.",
+        tech: ["React", "Vite"],
+        image: "/projects/diariccalia.png",
+        github: "https://github.com/axelgh-dev/DIARICCALIA", // TODO: replace with your real link
+        demo: "https://github.com/axelgh-dev/DIARICCALIA",   // TODO: replace with your real link
+      },
+      {
+        name: "BrainMind Studio",
+        tagline: "React + Vite",
+        desc: "An app to visually build mind maps and export them as an image, ready to share or save.",
+        tech: ["React", "Vite"],
+        image: "/projects/brainmind.png",
+        github: "https://github.com/axelgh-dev/BrainMind", // TODO: replace with your real link
+        demo: "https://github.com/axelgh-dev/BrainMind",   // TODO: replace with your real link
+      },
+    ],
     experience: [
       {
         company: "SOC Asesores",

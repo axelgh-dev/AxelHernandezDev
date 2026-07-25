@@ -9,7 +9,9 @@ import Skills from "./components/Skills";
 import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 import { content, meta } from "./data/profile";
+
 
 export default function App() {
   const [lang, setLang] = useState("es");
@@ -25,6 +27,7 @@ export default function App() {
       <Experience t={t} />
       <Skills t={t} />
       <Certifications t={t} />
+      <Projects t={t} />
       <Contact t={t} meta={meta} />
       <Footer meta={meta} />
     </div>
