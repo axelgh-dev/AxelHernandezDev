@@ -1,10 +1,10 @@
 export const meta = {
   name: "Axel Hernández",
-  location: "Tuxtla Gutiérrez, Chiapas, México",
-  email: "axxeluxxu@gmail.com",
-  phone: "+52 968 689 23 92",
+  location: "Software Developer",
+  email: "axelgutierrez_softwaredev@outlook.com",
+  phone: "+52 961 377 58 83",
   socials: {
-    github: "https://github.com/Kotaro-Axel",
+    github: "https://github.com/axelgh-dev",
     linkedin: "https://www.linkedin.com/in/axel-gh-dev/",
     stackoverflow: "https://stackoverflow.com/users/13090843/axel-ghh",
     twitter: "https://twitter.com/axel_guther",
@@ -20,8 +20,18 @@ export const content = {
       "Automatización con IA",
       "Constructor de Soluciones",
     ],
-    tagline:
-      "Construyo aplicaciones Full Stack, automatizo procesos de negocio con RPA y potencio flujos de trabajo integrando IA generativa. Autodidacta, orientado a soluciones que escalan.",
+    taglinefirst: `
+    Ingeniero de Software con más de 2 años de experiencia
+    desarrollando aplicaciones Full Stack, infraestructura cloud,
+    integraciones empresariales y soluciones de automatización inteligente.
+    `,
+
+    taglinesecond: `
+    Integrando ingeniería de software, tecnologías cloud
+    e IA Generativa para transformar ideas en aplicaciones
+    inteligentes y de alto rendimiento.
+    `,
+
     nav: { about: "Sobre mí", experience: "Experiencia", skills: "Habilidades", projects: "Proyectos", certs: "Certificaciones", contact: "Contacto" },
     about: "Ingeniero de Software con más de 2 años de experiencia construyendo aplicaciones Full Stack, automatizando procesos de negocio y desplegando soluciones en producción. Mi experiencia cubre frontend, backend, administración de servidores Linux, infraestructura cloud e integración de sistemas empresariales. En el último año he incorporado IA generativa (LLMs) a mis flujos de automatización y desarrollo, acelerando entregas sin sacrificar calidad. Busco retos donde pueda seguir aprendiendo, colaborar con equipos talentosos y construir tecnología con impacto real.",
     stats: [
@@ -174,8 +184,17 @@ export const content = {
       "AI-Driven Automation",
       "Solutions Builder",
     ],
-    tagline:
-      "I build Full Stack applications, automate business processes with RPA, and enhance workflows by integrating generative AI. Self-taught, focused on solutions that scale.",
+    taglinefirst: `
+    Software Engineer with 2+ years of experience
+    building Full Stack applications, cloud infrastructure,
+    enterprise integrations and intelligent automation solutions.
+    `,
+
+    taglinesecond: `
+    Integrating software engineering, cloud technologies
+    and Generative AI to transform ideas into intelligent,
+    high-performance applications.
+    `,
     nav: { about: "About", experience: "Experience", skills: "Skills", certs: "Certifications", projects: "Projects", contact: "Contact" },
     about: "Software Engineer with 2+ years of experience building Full Stack applications, automating business processes, and deploying production-ready solutions. My experience spans frontend, backend, Linux server administration, cloud infrastructure, and enterprise system integration. Over the past year I've integrated generative AI (LLMs) into my development and automation workflows, speeding up delivery without sacrificing quality. I'm looking for challenges where I can keep learning, collaborate with talented teams, and build technology with real impact.",
     stats: [
