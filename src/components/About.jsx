@@ -16,7 +16,7 @@ export default function About({ t, meta }) {
         >
           <div className="absolute -inset-3 rounded-3xl bg-gradient-to-br from-accent/40 to-accent2/40 blur-xl opacity-60" />
           <div className="relative w-64 h-64 md:w-full md:h-80 rounded-3xl overflow-hidden glass p-1.5">
-            <img src="/profile.jpg" alt={meta.name} className="w-full h-full object-cover rounded-2xl" />
+            <img src="/axel.png" alt={meta.name} className="w-full h-full object-cover rounded-2xl" />
           </div>
 
           <motion.div

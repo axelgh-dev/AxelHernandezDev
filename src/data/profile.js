@@ -72,8 +72,8 @@ export const content = {
         desc: "Landing page para una clínica de salud: muestra servicios, misión/visión, ubicación, y un formulario de reservación de citas.",
         tech: ["React", "Vite"],
         image: "/projects/diariccalia.png",
-        github: "https://github.com/axelgh-dev/DIARICCALIA", // TODO: reemplazar con tu link real
-        demo: "https://github.com/axelgh-dev/DIARICCALIA",   // TODO: reemplazar con tu link real
+        github: "https://github.com/axelgh-dev/DIARICCALIA",
+        demo: "https://diariccalia-clinica.vercel.app",
       },
       {
         name: "BrainMind Studio",
@@ -82,7 +82,7 @@ export const content = {
         tech: ["React", "Vite"],
         image: "/projects/brainmind.png",
         github: "https://github.com/axelgh-dev/BrainMind", // TODO: reemplazar con tu link real
-        demo: "https://github.com/axelgh-dev/BrainMind",   // TODO: reemplazar con tu link real
+        demo: "https://brain-mind.vercel.app",   // TODO: reemplazar con tu link real
       },
     ],
     experience: [
@@ -240,8 +240,8 @@ export const content = {
         desc: "Landing page for a medical clinic brand: showcases services, mission/vision, location details, and an appointment reservation form.",
         tech: ["React", "Vite"],
         image: "/projects/diariccalia.png",
-        github: "https://github.com/axelgh-dev/DIARICCALIA", // TODO: replace with your real link
-        demo: "https://github.com/axelgh-dev/DIARICCALIA",   // TODO: replace with your real link
+        github: "https://github.com/axelgh-dev/DIARICCALIA",
+        demo: "https://diariccalia-clinica.vercel.app", 
       },
       {
         name: "BrainMind Studio",
@@ -249,8 +249,8 @@ export const content = {
         desc: "An app to visually build mind maps and export them as an image, ready to share or save.",
         tech: ["React", "Vite"],
         image: "/projects/brainmind.png",
-        github: "https://github.com/axelgh-dev/BrainMind", // TODO: replace with your real link
-        demo: "https://github.com/axelgh-dev/BrainMind",   // TODO: replace with your real link
+        github: "https://github.com/axelgh-dev/BrainMind",
+        demo: "https://brain-mind.vercel.app",
       },
     ],
     experience: [
