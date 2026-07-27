@@ -152,11 +152,11 @@ export const content = {
       },
     },
     funStats: {
-      title: "Estadísticas serias",
+      title: "Estadísticas 📊",
       items: [
-        { value: 128400, suffix: "+", emoji: "🔥", label: "Tokens de Claude quemados" },
-        { value: 5230, suffix: "+", emoji: "🤖", label: "Llamadas a la API de OpenAI" },
-        { value: 897, suffix: "", emoji: "🔍", label: "Búsquedas en Gemini" },
+        { value: 6128400, suffix: "+", emoji: "🔥", label: "Tokens de Claude quemados" },
+        { value: 98230, suffix: "+", emoji: "🤖", label: "Llamadas a la API" },
+        { value: 4897, suffix: "", emoji: "🔍", label: "Búsquedas en Gemini" },
       ],
       note: "Okay, tal vez estoy exagerando un poco 😅",
     },
@@ -315,11 +315,11 @@ export const content = {
       },
     },
     funStats: {
-      title: "Serious Stats",
+      title: "Stats 📊",
       items: [
-        { value: 128400, suffix: "+", emoji: "🔥", label: "Claude tokens burnt" },
-        { value: 5230, suffix: "+", emoji: "🤖", label: "OpenAI API calls" },
-        { value: 897, suffix: "", emoji: "🔍", label: "Gemini searches" },
+        { value: 6128400, suffix: "+", emoji: "🔥", label: "Claude tokens burnt" },
+        { value: 98230, suffix: "+", emoji: "🤖", label: "API calls" },
+        { value: 4897, suffix: "", emoji: "🔍", label: "Gemini searches" },
       ],
       note: "Okay, maybe I'm exaggerating a little 😅",
     },
