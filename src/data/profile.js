@@ -172,7 +172,7 @@ export const content = {
       { name: "IA Generativa / LLMs", provider: "Google" },
     ],
     sectionsTitle: { experience: "Experiencia Profesional", education: "Educación", skills: "Habilidades Técnicas", certifications: "Certificaciones", learning: "Cursos" },
-    contact: { title: "Hablemos", body: "Estoy abierto a nuevos proyectos y colaboraciones. ¿Tienes una idea en mente? Construyamos algo increíble.", cta: "Enviar mensaje" },
+    contact: { title: "Hablemos", body: "Estoy abierto a nuevos proyectos y colaboraciones. ¿Tienes una idea en mente? Construyamos algo increíble.", cta: "Enviar mensaje", whatsappCta: "WhatsApp" },    
     downloadCV: "Descargar CV",
   },
 
@@ -335,7 +335,7 @@ export const content = {
       { name: "IA Generativa / LLMs", provider: "Google" },
     ],
     sectionsTitle: { experience: "Professional Experience", education: "Education", skills: "Technical Skills", certifications: "Certifications", learning: "Courses" },
-    contact: { title: "Let's Talk", body: "I'm open to new projects and collaborations. Have an idea in mind? Let's build something awesome.", cta: "Send a message" },
+    contact: { title: "Let's Talk", body: "I'm open to new projects and collaborations. Have an idea in mind? Let's build something awesome.", cta: "Send a message", whatsappCta: "WhatsApp" },
     downloadCV: "Download CV",
   },
 };
