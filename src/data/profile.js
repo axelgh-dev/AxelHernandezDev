@@ -174,6 +174,11 @@ export const content = {
     sectionsTitle: { experience: "Experiencia Profesional", education: "Educación", skills: "Habilidades Técnicas", certifications: "Certificaciones", learning: "Cursos" },
     contact: { title: "Hablemos", body: "Estoy abierto a nuevos proyectos y colaboraciones. ¿Tienes una idea en mente? Construyamos algo increíble.", cta: "Enviar mensaje", whatsappCta: "WhatsApp" },    
     downloadCV: "Descargar CV",
+    footer: {
+      tagline: "Construyendo software con propósito, un commit a la vez.",
+      builtWith: "Hecho con React, Tailwind, Claude y una taza de café ☕",
+      backToTop: "Volver arriba",
+    },
   },
 
 
@@ -337,5 +342,10 @@ export const content = {
     sectionsTitle: { experience: "Professional Experience", education: "Education", skills: "Technical Skills", certifications: "Certifications", learning: "Courses" },
     contact: { title: "Let's Talk", body: "I'm open to new projects and collaborations. Have an idea in mind? Let's build something awesome.", cta: "Send a message", whatsappCta: "WhatsApp" },
     downloadCV: "Download CV",
+    footer: {
+      tagline: "Building software with purpose, one commit at a time.",
+      builtWith: "Built with React, Tailwind, Claude and a cup of coffee ☕",
+      backToTop: "Back to top",
+    },
   },
 };
