@@ -328,7 +328,7 @@ export default function TechOrbit() {
             FULL STACK 
           </p>
           <p className="font-bold gradient-text">
-            &
+            +
           </p>
           <p className="font-bold gradient-text">
             GEN AI
