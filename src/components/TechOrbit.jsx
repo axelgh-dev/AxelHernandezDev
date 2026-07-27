@@ -323,17 +323,17 @@ export default function TechOrbit() {
         "
       >
         <div className="text-center">
-          <p className="font-mono text-xs text-cyan-400">
-            AXEL
-          </p>
 
           <p className="font-bold gradient-text">
-            FULL STACK
+            FULL STACK 
           </p>
-
-          <p className="text-xs text-gray-300 mt-1">
-            + AI
+          <p className="font-bold gradient-text">
+            +
           </p>
+          <p className="font-bold gradient-text">
+            GEN AI
+          </p>
+         
         </div>
       </motion.div>
     </motion.div>

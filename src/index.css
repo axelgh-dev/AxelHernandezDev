@@ -53,6 +53,10 @@ body {
     0 0 90px rgba(34,211,238,.2);
 }
 
+.glow-green {
+  box-shadow: 0 0 40px rgba(34, 197, 94, 0.3);
+}
+
 @keyframes orbit-move {
   from { offset-distance: 0%; }
   to { offset-distance: 100%; }

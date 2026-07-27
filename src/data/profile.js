@@ -1,10 +1,11 @@
 export const meta = {
   name: "Axel Hernández",
-  location: "Tuxtla Gutiérrez, Chiapas, México",
-  email: "axxeluxxu@gmail.com",
-  phone: "+52 968 689 23 92",
+  location: "Software Developer",
+  email: "axelgutierrez_softwaredev@outlook.com",
+  phone: "+52 961 377 58 83",
+  whatsapp: "529613775883",
   socials: {
-    github: "https://github.com/Kotaro-Axel",
+    github: "https://github.com/axelgh-dev",
     linkedin: "https://www.linkedin.com/in/axel-gh-dev/",
     stackoverflow: "https://stackoverflow.com/users/13090843/axel-ghh",
     twitter: "https://twitter.com/axel_guther",
@@ -20,16 +21,26 @@ export const content = {
       "Automatización con IA",
       "Constructor de Soluciones",
     ],
-    tagline:
-      "Construyo aplicaciones Full Stack, automatizo procesos de negocio con RPA y potencio flujos de trabajo integrando IA generativa. Autodidacta, orientado a soluciones que escalan.",
+    taglinefirst: `
+    Ingeniero de Software con más de 2 años de experiencia
+    desarrollando aplicaciones Full Stack, infraestructura cloud,
+    integraciones empresariales y soluciones de automatización inteligente.
+    `,
+
+    taglinesecond: `
+    Integrando ingeniería de software, tecnologías cloud
+    e IA Generativa para transformar ideas en aplicaciones
+    inteligentes y de alto rendimiento.
+    `,
+
     nav: { about: "Sobre mí", experience: "Experiencia", skills: "Habilidades", projects: "Proyectos", certs: "Certificaciones", contact: "Contacto" },
-    about: "Ingeniero de Software con más de 2 años de experiencia construyendo aplicaciones Full Stack, automatizando procesos de negocio y desplegando soluciones en producción. Mi experiencia cubre frontend, backend, administración de servidores Linux, infraestructura cloud e integración de sistemas empresariales. En el último año he incorporado IA generativa (LLMs) a mis flujos de automatización y desarrollo, acelerando entregas sin sacrificar calidad. Busco retos donde pueda seguir aprendiendo, colaborar con equipos talentosos y construir tecnología con impacto real.",
-    stats: [
-      { value: 2, suffix: "+", label: "Años de experiencia" },
-      { value: 15, suffix: "+", label: "Tecnologías dominadas" },
-      { value: 2, suffix: "", label: "Empresas" },
-      { value: 3, suffix: "", label: "Certificaciones" },
-    ],
+      about: "Ingeniero de Software con más de 2 años de experiencia construyendo aplicaciones Full Stack, automatizando procesos de negocio y desplegando soluciones en producción. Mi experiencia cubre frontend, backend, administración de servidores Linux, infraestructura cloud e integración de sistemas empresariales. En el último año he incorporado IA generativa (LLMs) a mis flujos de automatización y desarrollo, acelerando entregas sin sacrificar calidad. Busco retos donde pueda seguir aprendiendo, colaborar con equipos talentosos y construir tecnología con impacto real.",
+      stats: [
+        { value: 2, suffix: "+", label: "Años de experiencia" },
+        { value: 15, suffix: "+", label: "Proyectos realizados" },
+        { value: 13, suffix: "+", label: "Tecnologías centrales" },
+        { value: 4, suffix: "+", label: "Especializaciones" },
+      ],
     whatIDoTitle: "¿Qué hago?",
     whatIDo: [
       { icon: "fullstack", title: "Full Stack Development", desc: "Aplicaciones completas con React, Node.js, .NET y Flask, del frontend a la base de datos." },
@@ -52,8 +63,8 @@ export const content = {
         desc: "Un Kanban personal minimalista con estética glass, para crear, organizar y dar seguimiento a tus proyectos de forma individual.",
         tech: ["React", "Vite", "TypeScript", "Tailwind CSS"],
         image: "/projects/prisma.png",
-        github: "https://github.com/axelgh-dev/Prisma", // TODO: reemplazar con tu link real
-        demo: "https://github.com/axelgh-dev/Prisma",   // TODO: reemplazar con tu link real
+        github: "https://github.com/axelgh-dev/Prisma",
+        demo: "https://prismaglass.vercel.app/login",   
       },
       {
         name: "Diariccalia",
@@ -61,8 +72,8 @@ export const content = {
         desc: "Landing page para una clínica de salud: muestra servicios, misión/visión, ubicación, y un formulario de reservación de citas.",
         tech: ["React", "Vite"],
         image: "/projects/diariccalia.png",
-        github: "https://github.com/axelgh-dev/DIARICCALIA", // TODO: reemplazar con tu link real
-        demo: "https://github.com/axelgh-dev/DIARICCALIA",   // TODO: reemplazar con tu link real
+        github: "https://github.com/axelgh-dev/DIARICCALIA",
+        demo: "https://diariccalia-clinica.vercel.app",
       },
       {
         name: "BrainMind Studio",
@@ -70,8 +81,8 @@ export const content = {
         desc: "Aplicación para crear mapas mentales de forma visual y exportarlos como imagen, lista para compartir o guardar.",
         tech: ["React", "Vite"],
         image: "/projects/brainmind.png",
-        github: "https://github.com/axelgh-dev/BrainMind", // TODO: reemplazar con tu link real
-        demo: "https://github.com/axelgh-dev/BrainMind",   // TODO: reemplazar con tu link real
+        github: "https://github.com/axelgh-dev/BrainMind",
+        demo: "https://brain-mind.vercel.app",
       },
     ],
     experience: [
@@ -141,11 +152,11 @@ export const content = {
       },
     },
     funStats: {
-      title: "Estadísticas serias",
+      title: "Estadísticas 📊",
       items: [
-        { value: 128400, suffix: "+", emoji: "🔥", label: "Tokens de Claude quemados" },
-        { value: 5230, suffix: "+", emoji: "🤖", label: "Llamadas a la API de OpenAI" },
-        { value: 897, suffix: "", emoji: "🔍", label: "Búsquedas en Gemini" },
+        { value: 1012140, suffix: "+", emoji: "🔥", label: "Tokens de Claude quemados" },
+        { value: 98230, suffix: "+", emoji: "🤖", label: "Llamadas a la API" },
+        { value: 4897, suffix: "", emoji: "🔍", label: "Búsquedas en Gemini" },
       ],
       note: "Okay, tal vez estoy exagerando un poco 😅",
     },
@@ -155,14 +166,19 @@ export const content = {
       { name: "Linux Unhatched", provider: "Cisco Networking Academy", desc: "Línea de comandos Linux, filesystem, permisos y shell." },
     ],
     learning: [
-      { name: "JavaScript Avanzado", provider: "Google" },
+      { name: "Advanced JavaScript", provider: "Google" },
       { name: "Web Performance", provider: "Google" },
       { name: "Progressive Web Apps", provider: "Google" },
-      { name: "IA Generativa / LLMs", provider: "Google" },
+      { name: "Generative AI / LLMs", provider: "Google" },
     ],
     sectionsTitle: { experience: "Experiencia Profesional", education: "Educación", skills: "Habilidades Técnicas", certifications: "Certificaciones", learning: "Cursos" },
-    contact: { title: "Hablemos", body: "Estoy abierto a nuevos proyectos y colaboraciones. ¿Tienes una idea en mente? Construyamos algo increíble.", cta: "Enviar mensaje" },
+    contact: { title: "Hablemos", body: "Estoy abierto a nuevos proyectos y colaboraciones. ¿Tienes una idea en mente? Construyamos algo increíble.", cta: "Enviar mensaje", whatsappCta: "WhatsApp" },    
     downloadCV: "Descargar CV",
+    footer: {
+      tagline: "Construyendo software con propósito, un commit a la vez.",
+      builtWith: "Hecho con React, Tailwind, Claude y una taza de café ☕",
+      backToTop: "Volver arriba",
+    },
   },
 
 
@@ -174,15 +190,24 @@ export const content = {
       "AI-Driven Automation",
       "Solutions Builder",
     ],
-    tagline:
-      "I build Full Stack applications, automate business processes with RPA, and enhance workflows by integrating generative AI. Self-taught, focused on solutions that scale.",
+    taglinefirst: `
+    Software Engineer with 2+ years of experience
+    building Full Stack applications, cloud infrastructure,
+    enterprise integrations and intelligent automation solutions.
+    `,
+
+    taglinesecond: `
+    Integrating software engineering, cloud technologies
+    and Generative AI to transform ideas into intelligent,
+    high-performance applications.
+    `,
     nav: { about: "About", experience: "Experience", skills: "Skills", certs: "Certifications", projects: "Projects", contact: "Contact" },
     about: "Software Engineer with 2+ years of experience building Full Stack applications, automating business processes, and deploying production-ready solutions. My experience spans frontend, backend, Linux server administration, cloud infrastructure, and enterprise system integration. Over the past year I've integrated generative AI (LLMs) into my development and automation workflows, speeding up delivery without sacrificing quality. I'm looking for challenges where I can keep learning, collaborate with talented teams, and build technology with real impact.",
     stats: [
       { value: 2, suffix: "+", label: "Years of experience" },
-      { value: 15, suffix: "+", label: "Technologies mastered" },
-      { value: 2, suffix: "", label: "Companies" },
-      { value: 3, suffix: "", label: "Certifications" },
+      { value: 15, suffix: "+", label: "Projects delivered" },
+      { value: 13, suffix: "+", label: "Core technologies" },
+      { value: 4, suffix: "+", label: "Specializations" },
     ],
     whatIDoTitle: "What I Do",
     whatIDo: [
@@ -206,8 +231,8 @@ export const content = {
         desc: "A clean, glass-inspired personal Kanban app to create, organize and track your projects individually.",
         tech: ["React", "Vite", "TypeScript", "Tailwind CSS"],
         image: "/projects/prisma.png",
-        github: "https://github.com/axelgh-dev/Prisma", // TODO: replace with your real link
-        demo: "https://github.com/axelgh-dev/Prisma",   // TODO: replace with your real link
+        github: "https://github.com/axelgh-dev/Prisma", 
+        demo: "https://prismaglass.vercel.app/login",   
       },
       {
         name: "Diariccalia",
@@ -215,8 +240,8 @@ export const content = {
         desc: "Landing page for a medical clinic brand: showcases services, mission/vision, location details, and an appointment reservation form.",
         tech: ["React", "Vite"],
         image: "/projects/diariccalia.png",
-        github: "https://github.com/axelgh-dev/DIARICCALIA", // TODO: replace with your real link
-        demo: "https://github.com/axelgh-dev/DIARICCALIA",   // TODO: replace with your real link
+        github: "https://github.com/axelgh-dev/DIARICCALIA",
+        demo: "https://diariccalia-clinica.vercel.app", 
       },
       {
         name: "BrainMind Studio",
@@ -224,8 +249,8 @@ export const content = {
         desc: "An app to visually build mind maps and export them as an image, ready to share or save.",
         tech: ["React", "Vite"],
         image: "/projects/brainmind.png",
-        github: "https://github.com/axelgh-dev/BrainMind", // TODO: replace with your real link
-        demo: "https://github.com/axelgh-dev/BrainMind",   // TODO: replace with your real link
+        github: "https://github.com/axelgh-dev/BrainMind",
+        demo: "https://brain-mind.vercel.app",
       },
     ],
     experience: [
@@ -295,11 +320,11 @@ export const content = {
       },
     },
     funStats: {
-      title: "Serious Stats",
+      title: "Stats 📊",
       items: [
-        { value: 128400, suffix: "+", emoji: "🔥", label: "Claude tokens burnt" },
-        { value: 5230, suffix: "+", emoji: "🤖", label: "OpenAI API calls" },
-        { value: 897, suffix: "", emoji: "🔍", label: "Gemini searches" },
+        { value: 1012140, suffix: "+", emoji: "🔥", label: "Claude tokens burnt" },
+        { value: 98230, suffix: "+", emoji: "🤖", label: "API calls" },
+        { value: 4897, suffix: "", emoji: "🔍", label: "Gemini searches" },
       ],
       note: "Okay, maybe I'm exaggerating a little 😅",
     },
@@ -315,7 +340,12 @@ export const content = {
       { name: "IA Generativa / LLMs", provider: "Google" },
     ],
     sectionsTitle: { experience: "Professional Experience", education: "Education", skills: "Technical Skills", certifications: "Certifications", learning: "Courses" },
-    contact: { title: "Let's Talk", body: "I'm open to new projects and collaborations. Have an idea in mind? Let's build something awesome.", cta: "Send a message" },
+    contact: { title: "Let's Talk", body: "I'm open to new projects and collaborations. Have an idea in mind? Let's build something awesome.", cta: "Send a message", whatsappCta: "WhatsApp" },
     downloadCV: "Download CV",
+    footer: {
+      tagline: "Building software with purpose, one commit at a time.",
+      builtWith: "Built with React, Tailwind, Claude and a cup of coffee ☕",
+      backToTop: "Back to top",
+    },
   },
 };

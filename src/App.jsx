@@ -29,7 +29,7 @@ export default function App() {
       <Certifications t={t} />
       <Projects t={t} />
       <Contact t={t} meta={meta} />
-      <Footer meta={meta} />
+      <Footer t={t} meta={meta}  />
     </div>
   );
 }

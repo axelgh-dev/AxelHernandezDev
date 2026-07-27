@@ -29,7 +29,9 @@ export default function Hero({ t, meta }) {
           </motion.h2>
 
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3 }} className="text-muted text-lg max-w-xl mb-8">
-            {t.tagline}
+            {t.taglinefirst}
+            <br />
+            {t.taglinesecond}
           </motion.p>
 
           <div className="flex gap-5 text-2xl text-gray-400">
