@@ -63,8 +63,8 @@ export const content = {
         desc: "Un Kanban personal minimalista con estética glass, para crear, organizar y dar seguimiento a tus proyectos de forma individual.",
         tech: ["React", "Vite", "TypeScript", "Tailwind CSS"],
         image: "/projects/prisma.png",
-        github: "https://github.com/axelgh-dev/Prisma", // TODO: reemplazar con tu link real
-        demo: "https://github.com/axelgh-dev/Prisma",   // TODO: reemplazar con tu link real
+        github: "https://github.com/axelgh-dev/Prisma",
+        demo: "https://prismaglass.vercel.app/login",   
       },
       {
         name: "Diariccalia",
@@ -81,8 +81,8 @@ export const content = {
         desc: "Aplicación para crear mapas mentales de forma visual y exportarlos como imagen, lista para compartir o guardar.",
         tech: ["React", "Vite"],
         image: "/projects/brainmind.png",
-        github: "https://github.com/axelgh-dev/BrainMind", // TODO: reemplazar con tu link real
-        demo: "https://brain-mind.vercel.app",   // TODO: reemplazar con tu link real
+        github: "https://github.com/axelgh-dev/BrainMind",
+        demo: "https://brain-mind.vercel.app",
       },
     ],
     experience: [
@@ -154,7 +154,7 @@ export const content = {
     funStats: {
       title: "Estadísticas 📊",
       items: [
-        { value: 6128400, suffix: "+", emoji: "🔥", label: "Tokens de Claude quemados" },
+        { value: 1012140, suffix: "+", emoji: "🔥", label: "Tokens de Claude quemados" },
         { value: 98230, suffix: "+", emoji: "🤖", label: "Llamadas a la API" },
         { value: 4897, suffix: "", emoji: "🔍", label: "Búsquedas en Gemini" },
       ],
@@ -166,10 +166,10 @@ export const content = {
       { name: "Linux Unhatched", provider: "Cisco Networking Academy", desc: "Línea de comandos Linux, filesystem, permisos y shell." },
     ],
     learning: [
-      { name: "JavaScript Avanzado", provider: "Google" },
+      { name: "Advanced JavaScript", provider: "Google" },
       { name: "Web Performance", provider: "Google" },
       { name: "Progressive Web Apps", provider: "Google" },
-      { name: "IA Generativa / LLMs", provider: "Google" },
+      { name: "Generative AI / LLMs", provider: "Google" },
     ],
     sectionsTitle: { experience: "Experiencia Profesional", education: "Educación", skills: "Habilidades Técnicas", certifications: "Certificaciones", learning: "Cursos" },
     contact: { title: "Hablemos", body: "Estoy abierto a nuevos proyectos y colaboraciones. ¿Tienes una idea en mente? Construyamos algo increíble.", cta: "Enviar mensaje", whatsappCta: "WhatsApp" },    
@@ -231,8 +231,8 @@ export const content = {
         desc: "A clean, glass-inspired personal Kanban app to create, organize and track your projects individually.",
         tech: ["React", "Vite", "TypeScript", "Tailwind CSS"],
         image: "/projects/prisma.png",
-        github: "https://github.com/axelgh-dev/Prisma", // TODO: replace with your real link
-        demo: "https://github.com/axelgh-dev/Prisma",   // TODO: replace with your real link
+        github: "https://github.com/axelgh-dev/Prisma", 
+        demo: "https://prismaglass.vercel.app/login",   
       },
       {
         name: "Diariccalia",
@@ -322,7 +322,7 @@ export const content = {
     funStats: {
       title: "Stats 📊",
       items: [
-        { value: 6128400, suffix: "+", emoji: "🔥", label: "Claude tokens burnt" },
+        { value: 1012140, suffix: "+", emoji: "🔥", label: "Claude tokens burnt" },
         { value: 98230, suffix: "+", emoji: "🤖", label: "API calls" },
         { value: 4897, suffix: "", emoji: "🔍", label: "Gemini searches" },
       ],
