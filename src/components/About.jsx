@@ -52,9 +52,18 @@ export default function About({ t, meta }) {
           </div>
 
           <div className="flex flex-wrap gap-4 text-sm font-mono text-muted">
-            <span>{meta.email}</span>
+            <a href={`mailto:${meta.email}`} className="hover:text-accent2 transition">
+              {meta.email}
+            </a>
             <span>·</span>
-            <span>{meta.phone}</span>
+            <a
+              href={`https://wa.me/${meta.whatsapp}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-accent transition-colors"
+            >
+              {meta.phone}
+            </a>
           </div>
         </motion.div>
       </div>

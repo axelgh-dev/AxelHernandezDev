@@ -3,6 +3,7 @@ export const meta = {
   location: "Software Developer",
   email: "axelgutierrez_softwaredev@outlook.com",
   phone: "+52 961 377 58 83",
+  whatsapp: "529613775883",
   socials: {
     github: "https://github.com/axelgh-dev",
     linkedin: "https://www.linkedin.com/in/axel-gh-dev/",
@@ -33,13 +34,13 @@ export const content = {
     `,
 
     nav: { about: "Sobre mí", experience: "Experiencia", skills: "Habilidades", projects: "Proyectos", certs: "Certificaciones", contact: "Contacto" },
-    about: "Ingeniero de Software con más de 2 años de experiencia construyendo aplicaciones Full Stack, automatizando procesos de negocio y desplegando soluciones en producción. Mi experiencia cubre frontend, backend, administración de servidores Linux, infraestructura cloud e integración de sistemas empresariales. En el último año he incorporado IA generativa (LLMs) a mis flujos de automatización y desarrollo, acelerando entregas sin sacrificar calidad. Busco retos donde pueda seguir aprendiendo, colaborar con equipos talentosos y construir tecnología con impacto real.",
-    stats: [
-      { value: 2, suffix: "+", label: "Años de experiencia" },
-      { value: 15, suffix: "+", label: "Tecnologías dominadas" },
-      { value: 2, suffix: "", label: "Empresas" },
-      { value: 3, suffix: "", label: "Certificaciones" },
-    ],
+      about: "Ingeniero de Software con más de 2 años de experiencia construyendo aplicaciones Full Stack, automatizando procesos de negocio y desplegando soluciones en producción. Mi experiencia cubre frontend, backend, administración de servidores Linux, infraestructura cloud e integración de sistemas empresariales. En el último año he incorporado IA generativa (LLMs) a mis flujos de automatización y desarrollo, acelerando entregas sin sacrificar calidad. Busco retos donde pueda seguir aprendiendo, colaborar con equipos talentosos y construir tecnología con impacto real.",
+      stats: [
+        { value: 2, suffix: "+", label: "Años de experiencia" },
+        { value: 15, suffix: "+", label: "Proyectos realizados" },
+        { value: 13, suffix: "+", label: "Tecnologías centrales" },
+        { value: 4, suffix: "+", label: "Especializaciones" },
+      ],
     whatIDoTitle: "¿Qué hago?",
     whatIDo: [
       { icon: "fullstack", title: "Full Stack Development", desc: "Aplicaciones completas con React, Node.js, .NET y Flask, del frontend a la base de datos." },
@@ -199,9 +200,9 @@ export const content = {
     about: "Software Engineer with 2+ years of experience building Full Stack applications, automating business processes, and deploying production-ready solutions. My experience spans frontend, backend, Linux server administration, cloud infrastructure, and enterprise system integration. Over the past year I've integrated generative AI (LLMs) into my development and automation workflows, speeding up delivery without sacrificing quality. I'm looking for challenges where I can keep learning, collaborate with talented teams, and build technology with real impact.",
     stats: [
       { value: 2, suffix: "+", label: "Years of experience" },
-      { value: 15, suffix: "+", label: "Technologies mastered" },
-      { value: 2, suffix: "", label: "Companies" },
-      { value: 3, suffix: "", label: "Certifications" },
+      { value: 15, suffix: "+", label: "Projects delivered" },
+      { value: 13, suffix: "+", label: "Core technologies" },
+      { value: 4, suffix: "+", label: "Specializations" },
     ],
     whatIDoTitle: "What I Do",
     whatIDo: [
